@@ -1,0 +1,79 @@
+.event {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event_predefined {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text_container {
+  width: 90%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.event h3,
+.event_predefined h3 {
+  font-size: 0.7rem;
+  color: white;
+  word-break: break-word;
+  margin-bottom: 0;
+}
+
+.event span,
+.event_predefined span {
+  color: white;
+  font-size: 0.5em;
+}
+
+.edit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit svg {
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.edit svg:hover {
+  fill: black;
+}
+
+/* 
+    Not for always
+*/
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.drag {
+  text-align: center;
+  font-size: 0.6rem;
+  color: white;
+}
+
+.drag_container:hover .drag {
+  font-weight: 700;
+}
+
+.status {
+  width: 90%;
+  font-size: 0.8rem;
+  color: white;
+}
